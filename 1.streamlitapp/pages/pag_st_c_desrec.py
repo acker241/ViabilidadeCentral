@@ -90,6 +90,7 @@ if selecionador == 'Itens':
                 if itCatEsc['agrup']:
                     for x in itCatEsc:
                         subItem = itCatEsc[x]
+                        st.write(subItem)
                         if subItem is dict and subItem['visivel']:
                             st.text_input(subItem['nome'])
                             if subItem['agrup']:

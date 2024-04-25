@@ -90,14 +90,12 @@ if selecionador == 'Itens':
                 if itCatEsc['agrup']:
                     for x in itCatEsc:
                         subItem = itCatEsc[x]
-                        if subItem is dict and subItem['visivel']:
+                        if subItem is not bool and subItem['visivel']:
                             st.text_input(subItem['nome'])
                             if subItem['agrup']:
                                 st.write(subItem, 'tá com errinho ):')
                             else:
                                 st.text_input(subItem['nome'])
-                        if subItem is not dict and subItem is not bool:
-                            st.write(subItem['nome'])
                         
                 else:
                     st.text_input(itCatEsc['nome'])

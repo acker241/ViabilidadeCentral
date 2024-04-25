@@ -6,8 +6,8 @@
 # Bloco para carregar bases -------------------------------------------------------
 
 # ----- Pastas -------
-pastaBaseFin = 'pages\\Bases\\'
-pastaBaseTemp = pastaBaseFin+'temp\\'
+pastaBaseFin = 'pages/Bases/'
+pastaBaseTemp = pastaBaseFin+'temp/'
 
 # --- Arquivos ---
 # --- Dicionário com as strings para carregar as respectivas bases. ---

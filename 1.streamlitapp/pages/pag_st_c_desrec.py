@@ -92,12 +92,10 @@ if selecionador == 'Itens':
                         subItem = itCatEsc[x]
                         st.write(subItem, x)
                         if subItem is dict and subItem['visivel']:
-                            st.write('aaaa')
                             if subItem['agrup']:
                                 st.write(subItem, 'tá com errinho ):')
                             else:
                                 st.text_input(subItem['nome'])
-                    st.text_input(itCatEsc['nome'])
                 else:
                     st.text_input(itCatEsc['nome'])
 

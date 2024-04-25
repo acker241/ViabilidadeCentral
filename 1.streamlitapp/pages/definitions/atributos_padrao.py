@@ -6,7 +6,7 @@
 # Bloco para carregar bases -------------------------------------------------------
 
 # ----- Pastas -------
-pastaBaseFin = './pages/Bases/'
+pastaBaseFin = './Bases/'
 pastaBaseTemp = pastaBaseFin+'temp/'
 
 # --- Arquivos ---

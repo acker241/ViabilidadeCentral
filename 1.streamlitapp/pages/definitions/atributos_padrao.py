@@ -6,7 +6,7 @@
 # Bloco para carregar bases -------------------------------------------------------
 
 # ----- Pastas -------
-pastaBaseFin = './Bases/'
+pastaBaseFin = './1.streamlitapp/pages/Bases/'
 pastaBaseTemp = pastaBaseFin+'temp/'
 
 # --- Arquivos ---

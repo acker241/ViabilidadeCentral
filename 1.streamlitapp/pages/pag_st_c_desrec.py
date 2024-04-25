@@ -96,7 +96,7 @@ if selecionador == 'Itens':
                                 st.write(subItem, 'tá com errinho ):')
                             else:
                                 st.text_input(subItem['nome'])
-                        if subItem is dict:
+                        if subItem is not dict:
                             st.write(subItem['nome'])
                         
                 else:
